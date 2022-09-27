@@ -11,9 +11,9 @@ int main(void)
      kms; // output - distance in kilometers
 
      /* Get the distance in miles. */
-     pritnf("%s", "Enter the distance in miles> ");
+     printf("%s", "Enter the distance in miles> ");
      scanf("%lf", &miles);
 
      /* Convert the distance to kilometers. */
-     
+
 }
