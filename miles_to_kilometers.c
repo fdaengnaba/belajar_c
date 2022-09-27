@@ -15,5 +15,10 @@ int main(void)
      scanf("%lf", &miles);
 
      /* Convert the distance to kilometers. */
+     kms = KMS_PER_MILE * miles;
 
+     /* Display the distance in kilometers. */
+     printf("That equals %f kilometers.\n", kms);
+
+     return 0;
 }
