@@ -12,10 +12,16 @@
 
 `quarts /* the volume in quarts */`
 
-### Problem Output
+#### Problem Output
 
 `liter /* the volume in liter */`
 
-### Relevant Formula
+#### Relevant Formula
 
 1 quarts = 0.946353 liter
+
+### algorithm
+
+1. Get the volume in quarts
+2. Convert the distance to kilometers
+3. Display the distance in kilometers
