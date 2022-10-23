@@ -11,4 +11,24 @@
    1.8 * celsius = 68.5 then + 32.0 = 100.58  
    (salary - 5000.00) * 0.20 + 1425.00  
    salary - 5000.00 = 35450.00 then * 0.20 = 7090 then + 1425.00 = 8515.00
-3. 
+3. a is valid  
+   b is valid  
+   c is valid  
+   d is valid  
+   e is valid  
+   f is valid  
+   g is valid  
+   h is invalid divide by zero  
+   i is valid  
+   j is valid  
+   k is valid  
+   l is valid  
+   m is valid  
+   n is valid  
+   o is valid  
+   p is invalid divided by zero  
+   q is valid  
+   r is valid  
+4. a i = 1  
+   b i = -1  
+   c i = 
