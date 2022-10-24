@@ -63,4 +63,12 @@
 
    **Cancellation error** will arises when different sizes of numbers are operating in addition and subtraction and due to limit of precision, loss of accuracy happens.  
 
-9. If squaring 10^(-20) gives a result of zero, the type of error that has occurred is called **representational** error/.
+9. If squaring 10^(-20) gives a result of zero, the type of error that has occurred is called **representational** error/.  
+10. a. 2.1  
+    b. 2.1  
+    c. 10.0  
+    d. 7.2  
+    e. 0.0
+
+## Programming
+
