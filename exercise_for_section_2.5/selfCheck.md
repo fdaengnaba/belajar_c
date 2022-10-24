@@ -37,4 +37,14 @@
    f x = 2.333333  
    g x = 1.0  
    h is invalid, divided by zero  
-   
+   i i = -3  
+   j i = 1  
+   k x = 3.5
+   l i = 21  
+   m x = 1.570795  
+   n x = 0.428571429  
+   o i = 3  
+   p i is invalid, divided by zero  
+   q i = 7  
+   r x = 2.0  
+5. 
