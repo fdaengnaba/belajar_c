@@ -31,4 +31,10 @@
    r is valid  
 4. a i = 1  
    b i = -1  
-   c i = 
+   c i = 3  
+   d x = 6.28318  
+   e i = -2  
+   f x = 2.333333  
+   g x = 1.0  
+   h is invalid, divided by zero  
+   
