@@ -59,8 +59,8 @@
 7. a. 3  
    b. 'E'  
    c. -1  
-8. *Representational* error is an error which is actually caused when the accuracy and result of an arithmetic operation is greater than the machine accuracy and result and this error is also known as round-off error. 
+8. /Representational/ error is an error which is actually caused when the accuracy and result of an arithmetic operation is greater than the machine accuracy and result and this error is also known as round-off error.  
 
-   *Cancellation error* will arises when different sizes of numbers are operating in addition and subtraction and due to limit of precision, loss of accuracy happens.  
+   /Cancellation error/ will arises when different sizes of numbers are operating in addition and subtraction and due to limit of precision, loss of accuracy happens.  
 
-9. If squaring 10^(-20) gives a result of zero, the type of error that has occurred is called *representational error*.
+9. If squaring 10^(-20) gives a result of zero, the type of error that has occurred is called /representational error/.
