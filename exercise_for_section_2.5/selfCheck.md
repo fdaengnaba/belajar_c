@@ -72,3 +72,6 @@
 
 ## Programming
 
+   1. `q = (k * A * (T1 - T2)) / L;`
+   2. [program2](program2.c)
+   
