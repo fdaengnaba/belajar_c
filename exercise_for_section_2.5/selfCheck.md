@@ -47,4 +47,13 @@
    p i is invalid, divided by zero  
    q i = 7  
    r x = 2.0  
-5. 
+5. a. white = 1.66666  
+   b. green = 0.66666  
+   c. orange = 0  
+   d. blue = -3.0  
+   e. lime = 2  
+   f. purple = 0.0  
+6. a. a = (int)a % (int)c;  
+   b. x = 3 * a / b * c;  
+   c. j = 4 * (i + k);  
+7. a. 
