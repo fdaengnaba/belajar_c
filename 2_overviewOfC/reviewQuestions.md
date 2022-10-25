@@ -7,10 +7,10 @@
 5. Data requirements:  
         input:  
 
-            ```
-               double initial_odometer
-               double final_odometer
-            ```
+        ```
+            double initial_odometer
+            double final_odometer
+        ```
 
         output:  
             `double fare`
@@ -18,11 +18,11 @@
             `fare = (final_odometer - initial_odometer) * RATE;`
         algorithm:  
 
-            ```
+        ```
             get initial_odometer
             get final_odometer
             calculate fare
-            ```
+        ```
 
 6. `printf("The Average pH if citrus fruits is %.2lf\n", avg_citrus_pH);`
 7. int, double, char
