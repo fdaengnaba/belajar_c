@@ -12,11 +12,13 @@
             double final_odometer
         ```
 
+
         output:  
             `double fare`
         formulas:  
             `fare = (final_odometer - initial_odometer) * RATE;`
         algorithm:  
+
 
         ```
             get initial_odometer
