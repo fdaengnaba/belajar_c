@@ -14,8 +14,8 @@ int main(void)
     int total_cents;          /* total cents                     */
 
     /* Get and display the customer's initials. */
-    scanf(" %c%c%c, &first, &middle, &last");
-    printf("your 3 initials is %c%c%c\n");
+    scanf(" %c%c%c", &first, &middle, &last);
+    printf("your 3 initials is %c%c%c\n", first, middle, last);
 
     /* Get the count of each kind of coin. */
     scanf(" %d", &dollars);
@@ -24,7 +24,7 @@ int main(void)
     printf("Number of quarters = %d\n", quarters);
     scanf(" %d", &dimes);
     printf("Number of dimes = %d\n", dimes);
-    scanf(" %d", nickels);
+    scanf(" %d", &nickels);
     printf("Number of nickels = %d\n", nickels);
     scanf(" %d", &pennies);
     printf("Number of pennies = %d\n", pennies);

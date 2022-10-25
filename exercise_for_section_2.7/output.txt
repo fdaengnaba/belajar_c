@@ -1,0 +1,10 @@
+your 3 initials is JRH
+Number of $ coins = 2
+Number of quarters = 14
+Number of dimes = 12
+Number of nickels = 25
+Number of pennies = 131
+
+JRH Coin Credit
+Dollars: 9
+Change: 26 cents
