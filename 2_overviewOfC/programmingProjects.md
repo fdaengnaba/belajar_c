@@ -10,7 +10,7 @@
             megawatts of power double
         formula:
             1mW = 10^6^W
-            w = m/s * g * h
+            w = m/s \* g \* h
         process:
             get height
             get flow

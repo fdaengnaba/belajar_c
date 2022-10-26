@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define GRAVITY 9.80
 #define EFICCIENCY 0.9
+#define CUBIC_MASS 1000
 
 int main(void)
 {
@@ -14,5 +15,12 @@ int main(void)
     printf("Height: %14.2lfm\n", height);
     printf("Flow  : %14.2lfm^3s^(-1)\n", flow);
 
-    
+    /* Calculate power. */
+    power_W = (flow * CUBIC_MASS) * GRAVITY * height * EFICCIENCY;
+    power_MW = power_W / 1000000;
+
+    /* Display result. */
+    printf("\nPower: %14.2lfMW\n", power_MW);
+
+    return 0;
 }
