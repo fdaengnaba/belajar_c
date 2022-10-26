@@ -16,3 +16,4 @@
             get flow
             calculate power
             display power
+3. [Temperature Estimator](estimateTemp.c)
