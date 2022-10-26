@@ -8,7 +8,7 @@ int main(void)
     double height, flow;
     double power_W, power_MW;
 
-    printf("Dam Powe Calculator Program\n");
+    printf("Dam Powe Calculator Program\n\n");
 
     /* Get height and flow. */
     scanf(" %lf %lf", &height, &flow);
@@ -20,7 +20,7 @@ int main(void)
     power_MW = power_W / 1000000;
 
     /* Display result. */
-    printf("\nPower: %14.2lfMW\n", power_MW);
+    printf("\nPower : %14.2lfMW\n", power_MW);
 
     return 0;
 }

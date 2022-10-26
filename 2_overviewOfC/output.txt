@@ -1,0 +1,5 @@
+Dam Powe Calculator Program
+Height:         170.00m
+Flow  :        1300.00m^3s^(-1)
+
+Power:        1949.22MW
