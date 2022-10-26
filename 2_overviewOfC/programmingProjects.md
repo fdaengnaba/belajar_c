@@ -17,3 +17,4 @@
             calculate power
             display power
 3. [Temperature Estimator](estimateTemp.c)
+4. [USD to GBP converter](usdtogbp.c)
