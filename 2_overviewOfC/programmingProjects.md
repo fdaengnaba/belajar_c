@@ -20,3 +20,4 @@
 4. [USD to GBP converter](usdtogbp.c)
 5. [infusion rate calculator](infCalc.c)
 6. [score minimum calculator](minScore.c)
+7. [BTU calculator](btuCalc.c)
