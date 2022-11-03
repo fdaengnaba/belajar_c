@@ -23,3 +23,4 @@
 7. [BTU calculator](btuCalc.c)
 8. [water saved calculator](watersave.c)
 9. [cut grass estimated time calculator](cutgrasseta.c)
+10. [perpendicular equation](perpendicular.c)
