@@ -20,5 +20,15 @@ int main(void)
     double slope = (a.y - b.y) / (a.x - b.x);
     printf("slope: %.2lf\n", slope);
 
+    /* 
+    * Compute the coordinates of the mindpoint of the line 
+    * segment between the two points by averaging the two
+    * x-coordinates and y-coordinates.
+    */
+    point mid;
+    mid.x = (a.x + b.x) / 2;
+    mid.y = (a.y + b.y) / 2;
+    printf("mid point: %.2lf %.2lf\n", mid.x, mid.y);
+
     return 0;
 }
