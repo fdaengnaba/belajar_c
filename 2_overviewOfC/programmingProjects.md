@@ -26,3 +26,4 @@
 10. [perpendicular equation](perpindicular.c)
 this code will error if both point have equal x, resulting divided by zero, such as (3, 4) and (3, 7)
 11. [pythagorean triple](pythagorean_triple.c)
+12. [acceleration calculator](acceleration.c)
