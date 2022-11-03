@@ -30,5 +30,13 @@ int main(void)
     mid.y = (a.y + b.y) / 2;
     printf("mid point: %.2lf %.2lf\n", mid.x, mid.y);
 
+    /*
+    * compute the slope of the perpindicular bisector by taking the
+    * negative reciprocal of the slope of the line segment
+    */
+    double per_slope = -1/slope;
+    printf("the slope of the perpendicular line: %.2lf\n", per_slope);
+    
+
     return 0;
 }
