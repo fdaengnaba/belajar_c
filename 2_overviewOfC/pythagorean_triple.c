@@ -13,7 +13,7 @@ int main(void)
     int hypotenuse = m * m + n * n;
 
     /* Display side1, 2, and hypotenuse. */
-    printf("side1: %d\nside2: %d\nhypotenuse: %d", side1, side2,
+    printf("side1: %d\nside2: %d\nhypotenuse: %d\n", side1, side2,
     hypotenuse);
 
     return 0;
