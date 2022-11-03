@@ -12,12 +12,13 @@ int main(void)
     point a, b;
     printf("Input two point\n");
     printf("point A> ");
-    scanf(" %lf %lf", a.x, a.y);
+    scanf(" %lf %lf", &a.x, &a.y);
     printf("point B> ");
-    scanf(" %lf %lf", b.x, b.y);
+    scanf(" %lf %lf", &b.x, &b.y);
 
     /* Compute the slope of the line between those two points. */
-    
+    double slope = (a.y - b.y) / (a.x - b.x);
+    printf("slope: %.2lf\n", slope);
 
     return 0;
 }
