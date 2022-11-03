@@ -42,6 +42,12 @@ int main(void)
     y_intercept.x = 0;
     y_intercept.y = mid.y - per_slope * mid.x;
     
+    /*
+    * Output with labels the original two points, and output in
+    * y = mx + b format the equation of the perpendicular bisector.
+    */
+   printf("perpendicular line: y = %.2lfx + %.2lf\n", per_slope,
+   y_intercept.y);
 
     return 0;
 }
