@@ -36,6 +36,11 @@ int main(void)
     */
     double per_slope = -1/slope;
     printf("the slope of the perpendicular line: %.2lf\n", per_slope);
+
+    /* Compute the y-intercept of the perpendicular bisector. */
+    point y_intercept;
+    y_intercept.x = 0;
+    y_intercept.y = mid.y - per_slope * mid.x;
     
 
     return 0;
