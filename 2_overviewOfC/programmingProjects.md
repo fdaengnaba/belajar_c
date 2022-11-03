@@ -24,3 +24,4 @@
 8. [water saved calculator](watersave.c)
 9. [cut grass estimated time calculator](cutgrasseta.c)
 10. [perpendicular equation](perpendicular.c)
+this code will error if both point have equal x, resulting divided by zero, such as (3, 4) and (3, 7)
