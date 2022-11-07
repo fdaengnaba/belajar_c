@@ -6,3 +6,7 @@ Describe the problem inputs and outputs and write the algorithm for a pro-gram t
 
 ### Problem inputs
 
+```c
+int hours /* hours worked */
+int rate /* hourly rate */
+```
