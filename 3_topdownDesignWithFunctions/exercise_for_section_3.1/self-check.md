@@ -16,3 +16,30 @@ int rate /* hourly rate */
 ```c
 int salary /* gross salary */
 ```
+
+## 2
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int hours /* hours worked */
+    int rate /* hourly rate */
+
+    /* Get hours worked. */
+    /* Get hourly rate. */
+    /* Compute gross salary. */
+
+    return 0;
+}
+```
+
+## 3
+
+add
+
+```c
+int overtime /* overtime */
+/* re-Compute gross salary */
+```
