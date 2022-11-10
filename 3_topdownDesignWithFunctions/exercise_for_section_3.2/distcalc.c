@@ -23,7 +23,7 @@ int main(void)
                + pow(satu.z - dua.z, 2));
 
     /* Display the result. */
-    printf("The distance is %.2f", distance);
+    printf("The distance is %.2f\n", distance);
     
     return 0;
 }
