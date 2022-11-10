@@ -19,7 +19,11 @@ int main(void)
     scanf(" %lf %lf %lf", &dua.x, &dua.y, &dua.z);
 
     /* Compute the distance between two ponts. */
-    
+    distance = sqrt(pow(satu.x - dua.x, 2) + pow(satu.y - dua.y, 2)
+               + pow(satu.z - dua.z, 2));
 
+    /* Display the result. */
+    printf("The distance is %.2f", distance);
+    
     return 0;
 }
