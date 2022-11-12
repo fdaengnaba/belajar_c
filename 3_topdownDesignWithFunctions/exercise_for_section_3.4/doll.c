@@ -17,3 +17,18 @@ int main(void)
 
     return 0;
 }
+
+void print_d(void)
+{
+    printf("D");
+}
+
+void print_o(void)
+{
+    printf("O");
+}
+
+void print_l(void)
+{
+    printf("L");
+}
