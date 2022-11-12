@@ -20,3 +20,9 @@ void draw_rectangle(void)
     draw_basae();
 }
 ```
+
+## 2
+
+Write a complete program for the problem described in self-check exercise 2.
+
+[vertical DOLL displayer program](doll.c)
