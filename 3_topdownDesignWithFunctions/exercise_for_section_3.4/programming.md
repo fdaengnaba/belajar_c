@@ -26,3 +26,7 @@ void draw_rectangle(void)
 Write a complete program for the problem described in self-check exercise 2.
 
 [vertical DOLL displayer program](doll.c)
+
+## 3
+
+Rewrite the miles-to-kilometers conversion program shown in Fig. 2.1, so that it includes a function that displays instruction to its user.
