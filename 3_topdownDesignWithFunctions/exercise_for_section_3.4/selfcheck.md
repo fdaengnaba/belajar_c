@@ -24,4 +24,5 @@ int main(void)
 
 Draw a structure chart for a program with three function subprograms that display DOLL in a vertical Column of block letters.
 
-[structure chart]()
+[structure chart picture](structure_chart.bmp)
+[structure chart graphml](structure_chart.graphml)
