@@ -27,3 +27,11 @@ Evaluate each of the following:
 ## 2
 
 Explain the effect of reversing the function arguments in the call to `scale` shown in Example 3.6-that is, scale(num_2, num_1);
+
+so, instead of num_1 multiplied by 10^num_2, num_2 will be multiplied by 10^num_1
+
+## 3
+
+How does the use of function arguments make it possible to write larger, useful program.
+
+It allow us to transfer information between function and make it more useful.
