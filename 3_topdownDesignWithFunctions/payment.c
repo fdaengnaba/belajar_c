@@ -6,6 +6,7 @@
 #include <math.h>
 
 double find_monthly_interest_rate(double annual_rate);
+double find_payment(double principal, double i, int n);
 
 int main(void)
 {
@@ -48,4 +49,10 @@ int main(void)
 double find_monthly_interest_rate(double annual_rate)
 {
     return annual_rate / 12;
+}
+
+double find_payment(double principal, double i, int n)
+{
+    double payment = i / 100 * principal / (pow(1 + i/100), -n);
+    return payment;
 }
