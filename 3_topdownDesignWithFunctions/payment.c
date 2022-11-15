@@ -21,7 +21,12 @@ int main(void)
      */
     printf("Enter the purchase price> $ ");
     scanf("%lf", &purchase_price);
-    printf("")
+    printf("Enter the down payment> $ ");
+    scanf("%lf", &down_payment);
+    printf("Enter annual interest rate in percent> ");
+    scanf("%lf", &annual_interest_rate);
+    printf("Enter number of payments> ");
+    scanf("%d", &number_of_payment);
 
     return 0;
 }
