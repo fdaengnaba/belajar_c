@@ -197,3 +197,35 @@ In shopping for a new house, you must consider several factors. In this problem 
 | 75000 | 1850 | 0.020 |
 
 to calculate the house cost, add the initial cost tho the fuel cost for 5 years, then add the taxes fo five years. Taxes for one year are computed by multiplying the tax rate by the initial cost. Write and call a function that display instructions to the program user.
+
+### 7 input
+
+1. initial house cost
+2. annual fuel cost
+3. tax rate
+
+### 7 output
+
+1. house cost
+
+### 7 process
+
+1. display instruction
+2. get initial house cost, annual fuel cost, tax rate
+3. compute house cost
+4. display house cost
+
+#### 7.1 refinement
+
+7.1.1 display program description
+7.1.2 display when to input input
+
+#### 7.3 refinement
+
+7.3.1 compute the 5 years fuel cost
+7.3.2 compute 5 years tax
+7.3.3 house cost = initial house cost + fuel cost  + tax
+
+### 7 source code
+
+[house cost calculator](house.c)
