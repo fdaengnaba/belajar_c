@@ -77,3 +77,17 @@ Write a program that promts the user to enter the radius of the circle base of a
 ### 3 source code
 
 [total cone surface area calculator](cone_total_surface.c)
+
+## 4
+
+### 4 analysis
+
+For any integer `n > 0`, `n!` is defined as the product `n * n-1 * n-2 ....* 2 * 1` 0! is defined to be 1. It is sometimes useful to have a closed-form definition istead; For this purpose, an approximation can be used. R. W. Gosper proposed the following such approximation formula
+
+`n! ~= n^n * e^(-n) ((2n + 1/3)pi)^0.5`
+
+Create a program that prompts the user to enter an integer n, uses Gosper's formula to approximate n!, and then displays the result. The message displaying result should look something like this:
+
+`5! equals approximately 119.97003`
+
+Your program will be easier to debug if you use some intermediate values instead of trying to compute the result in a single expression. If you are not getting the correct results, then you can compare the results of your intermediate values to what you get when you do the calculations by hand. Use at least Display two each intermediate of these intermediate variables—one values for 2n to simplify + 3 1 and debugging. one for 2(2n Be sure + 13). to use a named constant for PI, and use the approximation 3.14159265. Test the program on nonnegative integers less than 8.
