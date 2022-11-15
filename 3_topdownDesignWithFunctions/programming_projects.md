@@ -91,3 +91,5 @@ Create a program that prompts the user to enter an integer n, uses Gosper's form
 `5! equals approximately 119.97003`
 
 Your program will be easier to debug if you use some intermediate values instead of trying to compute the result in a single expression. If you are not getting the correct results, then you can compare the results of your intermediate values to what you get when you do the calculations by hand. Use at least Display two each intermediate of these intermediate variables—one values for 2n to simplify + 3 1 and debugging. one for 2(2n Be sure + 13). to use a named constant for PI, and use the approximation 3.14159265. Test the program on nonnegative integers less than 8.
+
+### 4 input
