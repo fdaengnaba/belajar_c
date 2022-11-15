@@ -17,4 +17,8 @@ int main(void)
     instruct();
     
     /* Get base radius, and slant height. */
+    printf("Enter radius of the base> ");
+    scanf("%lf", &base_radius);
+    print("Enter slant height of the cone> ");
+    scanf("%lf", &slant_height);
 }
