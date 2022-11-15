@@ -21,4 +21,13 @@ int main(void)
 
     /* Converts minutes and second to time in seconds. */
     times = minutes * 60 + seconds;
+
+    /* Computes fps. */
+    fps = find_fps(times);
+
+    /* Convert fps to mps. */
+    mps = fps_to_mps(fps);
+
+    /* Display the result. */
+    
 }
