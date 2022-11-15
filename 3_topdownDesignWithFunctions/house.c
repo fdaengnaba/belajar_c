@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 void instruct(void);
-double find_fuel_cost(double ann_fuel_cost);
-double find_tax(double tax_rate);
 double find_5yrs_fuel(double fuel_cost);
 double find_5yrs_tax(double house, double tax);
 
@@ -34,6 +32,19 @@ int main(void)
     
     /* Display house cost. */
     printf("The house cost is %.2lf\n", house_cost);
-    
+
     return 0;
+}
+
+void instruct(void)
+{
+    printf("Program to calculate hose cost\n");
+}
+double find_5yrs_fuel(double fuel_cost)
+{
+    return fuel_cost * 5;
+}
+double find_5yrs_tax(double house, double tax)
+{
+    return house * tax * 5;
 }
