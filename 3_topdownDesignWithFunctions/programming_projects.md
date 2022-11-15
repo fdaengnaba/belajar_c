@@ -112,8 +112,8 @@ the n!
 
 #### 4.2.2 refinement
 
-4.2.2 eq1 = pow(n, n)
-4.2.3.eq2 = (2n + 1/3) * pi
+4.2.2 eq1 = pow(n, n) \* exp(-n)
+4.2.3.eq2 = (2n + 1/3) \* pi
 
 ### 4 source code
 
