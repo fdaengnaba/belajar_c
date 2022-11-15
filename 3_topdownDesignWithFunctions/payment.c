@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <math.h>
 
+double find_monthly_interest_rate(double annual_rate);
+
 int main(void)
 {
     double purchase_price;        /* input - purchase price           */
@@ -39,6 +41,11 @@ int main(void)
     /* Display amount borowwed and monthly payment. */
     printf("Money borowwed : $ %.2lf\n", amount_borowwed);
     printf("Monthly payment: $ %.2lf", monthly_payment);
-     
+
     return 0;
+}
+
+double find_monthly_interest_rate(double annual_rate)
+{
+    return annual_rate / 12;
 }
