@@ -34,3 +34,13 @@ int main(void)
 
     return 0;
 }
+
+double find_fps(double time)
+{
+    return FEET / time;
+}
+
+double fps_to_mps(double fps)
+{
+    return fps * FPS_MPS;
+}
