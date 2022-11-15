@@ -25,4 +25,10 @@ int main(void)
     /* Compute the total surface area. */
     total_surface_area = find_total_surface_area(base_radius,
     slant_height);
+
+    /* Display the total surface area */
+    printf("The total surface area is %.2lf square unit\n",
+    total_surface_area);
+
+    return 0;
 }
