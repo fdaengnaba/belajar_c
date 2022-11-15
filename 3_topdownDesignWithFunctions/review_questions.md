@@ -62,3 +62,7 @@
         printf("###\n");
     }
     ```
+
+8. ![structure chart](structure_chart.bmp)
+
+9. `void script(int spaces, char c, int times);`
