@@ -41,7 +41,7 @@ int main(void)
 
     /* Display amount borowwed and monthly payment. */
     printf("Money borowwed : $ %.2lf\n", amount_borowwed);
-    printf("Monthly payment: $ %.2lf", monthly_payment);
+    printf("Monthly payment: $ %.2lf\n", monthly_payment);
 
     return 0;
 }
@@ -53,6 +53,6 @@ double find_monthly_interest_rate(double annual_rate)
 
 double find_payment(double principal, double i, int n)
 {
-    double payment = i / 100 * principal / (pow(1 + i/100), -n);
+    double payment = i / 100 * principal / (1 - pow(1 + i / 100, -n));
     return payment;
 }
