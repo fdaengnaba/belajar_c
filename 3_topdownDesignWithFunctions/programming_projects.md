@@ -93,3 +93,28 @@ Create a program that prompts the user to enter an integer n, uses Gosper's form
 Your program will be easier to debug if you use some intermediate values instead of trying to compute the result in a single expression. If you are not getting the correct results, then you can compare the results of your intermediate values to what you get when you do the calculations by hand. Use at least Display two each intermediate of these intermediate variables—one values for 2n to simplify + 3 1 and debugging. one for 2(2n Be sure + 13). to use a named constant for PI, and use the approximation 3.14159265. Test the program on nonnegative integers less than 8.
 
 ### 4 input
+
+n
+
+### 4 output
+
+the n!
+
+### 4 process
+
+1. get n
+2. compute n!
+3. display n!
+
+#### 4.2 refinement
+
+4.2.1 n! ~= eq1 * sqrt(eq2)
+
+#### 4.2.2 refinement
+
+4.2.2 eq1 = pow(n, n)
+4.2.3.eq2 = (2n + 1/3) * pi
+
+### 4 source code
+
+[n! calculator](n.c)
