@@ -11,5 +11,13 @@ int main(void)
     double work_hours;      /* output - hours of woek needed       */
     double install_gap;     /* gap between install and project mny */
     
+    /* Get monthly_payment, horly_rate, monthly_install. */
+    printf("Enter monthly payment> ");
+    scanf("%lf", &monthly_payment);
+    printf("Enter hourly rate> ");
+    scanf("%lf", &hourly_rate);
+    printf("Enter monthly installment> ");
+    scanf("%lf", &monthly_install);
+    
     return 0;
 }
