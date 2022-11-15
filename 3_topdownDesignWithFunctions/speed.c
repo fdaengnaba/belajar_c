@@ -17,5 +17,8 @@ int main(void)
     printf("Enter minutes> ");
     scanf("%d", &minutes);
     printf("Enter seconds> ");
-    scanf("")
+    scanf("%lf", &seconds);
+
+    /* Converts minutes and second to time in seconds. */
+    times = minutes * 60 + seconds;
 }
