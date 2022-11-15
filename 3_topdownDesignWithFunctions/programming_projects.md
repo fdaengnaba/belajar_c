@@ -185,3 +185,15 @@ Four track stars have entered the mile race at the Penn Relays. Write a program 
 ### 6 source code
 
 [speed calculator](speed.c)
+
+## 7
+
+In shopping for a new house, you must consider several factors. In this problem the initial cost of the house, the estimated annual fuel cost, and the annual tax rate are available. Write a program that will determine the total cost of a house after five-year period and run the program for each of the following sest of data
+
+| Initial House cost | Annual Fuel Cost | Tax Rate |
+|--------------------|------------------|----------|
+| 67000 | 2300 | 0.025 |
+| 62000 | 2500 | 0.025 |
+| 75000 | 1850 | 0.020 |
+
+to calculate the house cost, add the initial cost tho the fuel cost for 5 years, then add the taxes fo five years. Taxes for one year are computed by multiplying the tax rate by the initial cost. Write and call a function that display instructions to the program user.
