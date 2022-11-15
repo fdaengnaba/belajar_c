@@ -57,3 +57,23 @@ Write a program that promts the user to enter the radius of the circle base of a
 
 ### 3 input
 
+1. base radius
+2. slant height of the cone
+
+### 3 output
+
+1. surface area
+
+### 3 process
+
+1. get base radius, and slant height
+2. compute the total surface area
+3. display total surface area
+
+#### 3.2 refinement
+
+3.2.1 total surface area = pi * base radius (base radius + slant height)
+
+### 3 source code
+
+[total cone surface area calculator](cone_total_surface.c)
