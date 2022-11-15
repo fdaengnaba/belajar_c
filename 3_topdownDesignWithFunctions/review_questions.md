@@ -7,29 +7,58 @@
 5. its make use more efficient programmers time. because function can be called multiple time, and it help programmer flow with top-down design rather than built program as a whole unit in a time.
 6. program
 
-```c
-#include <stdio.h>
-#define PI 3.14
+    ```c
+    #include <stdio.h>
+    #include <math.h>
+    #define PI 3.14
 
-/*
- * prompt user to input radius and 
- * calculate the area of a circle with that radius
- */
-int main(void)
-{
-    double radius; /* input - radius of the circle */
-    double area;   /* output - area of the circle  */
+    /*
+    * prompt user to input radius and 
+    * calculate the area of a circle with that radius
+    */
+    int main(void)
+    {
+        double radius; /* input - radius of the circle */
+        double area;   /* output - area of the circle  */
 
-    printf("Input radius> ");
-    scanf("%lf", &radius);
+        printf("Input radius> ");
+        scanf("%lf", &radius);
 
-    /* Compute circle area. */
-    area = PI * pow(radius, 2);
+        /* Compute circle area. */
+        area = PI * pow(radius, 2);
 
-    /* Display the area. */
-    printf("The are of the circle with the given radius\n");
-    printf("is %.2lf\n", area);
+        /* Display the area. */
+        printf("The are of the circle with the given radius\n");
+        printf("is %.2lf\n", area);
 
-    return 0;
-}
-```
+        return 0;
+    }
+    ```
+
+7. a program
+
+    ```c
+    #include <stdio.h>
+
+    void square_sides(void);
+    void square_lines(void);
+
+    int main(void)
+    {
+        square_lines();
+        square_sides();
+        square_lines();
+
+        return 0;
+    }
+
+    void square_sides(void)
+    {
+        printf("# #\n");
+    }
+
+    void square_lines(void)
+    {
+        printf("###\n");
+    }
+    ```
