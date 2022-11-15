@@ -148,3 +148,40 @@ the n!
 ### 5 source code
 
 [hour needed calculator](hour_needed.c)
+
+## 6
+
+Four track stars have entered the mile race at the Penn Relays. Write a program that scans in the race time in minutes and seconds for a runner and compute and displays the speed in feet per second(fps) and in meters per second(mps). (Hints: There are 5.280 feet in one mile, and one kilometer equals 3.282 feet.) Write and call a function that displays instructions to the program user. Run the program for each star's data.
+
+### 6 input
+
+1. time in minutes and second
+
+### 6 output
+
+1. speed in feet per second
+2. speed in meter per second
+
+### 6 related equation
+
+1. 1 mile = 5.280 feets
+2. 1 km   = 3.282 feets
+
+### 6 process
+
+1. get minutes, seconds
+2. compute speed in fps
+3. convert fps to mps
+
+#### 6.2 refinement
+
+6.2.1 convert minutes and seconds to time in seconds
+6.2.2 fps = feet / time
+
+#### 6.3 refinement
+
+6.3.1 fps to mps = fps * 1000 / 3282
+
+### 6 source code
+
+[speed calculator](speed.c)
