@@ -28,5 +28,17 @@ int main(void)
     printf("Enter number of payments> ");
     scanf("%d", &number_of_payment);
 
+    /* Compute amount borowwed. */
+    amount_borowwed = purchase_price - down_payment;
+
+    /* Compute monthly payment. */
+    monthly_payment = find_payment(amount_borowwed,
+    find_monthly_interest_rate(annual_interest_rate),
+    number_of_payment);
+
+    /* Display amount borowwed and monthly payment. */
+    printf("Money borowwed : $ %.2lf\n", amount_borowwed);
+    printf("Monthly payment: $ %.2lf", monthly_payment);
+     
     return 0;
 }
