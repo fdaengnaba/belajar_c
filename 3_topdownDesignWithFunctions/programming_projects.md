@@ -31,6 +31,7 @@ your program should prompt the user for the purchase price, the down payment, th
 1. get purchase price, down payment, annual interest rate, number of payments
 2. compute amount borowwed
 3. compute monthly payment
+4. Display amount borowwed and monthly payment
 
 #### 2 refinement process
 
