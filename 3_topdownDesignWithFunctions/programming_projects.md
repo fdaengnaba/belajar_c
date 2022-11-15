@@ -48,3 +48,12 @@ monthly interest rate = 1/12 of the annual rate
 ### source code
 
 [payment calculator](payment.c)
+
+## 3
+
+### 3 Analysis
+
+Write a program that promts the user to enter the radius of the circle base of a cone and the slant height of the cone. The program must compute the total surface area of a right circular cone and display it back to the user. (Hint: pi will be used in the equation to calculate the total surface area and hence, you may have to use an appropriate value for it.)
+
+### 3 input
+
