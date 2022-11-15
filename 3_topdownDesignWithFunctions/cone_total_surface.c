@@ -32,3 +32,11 @@ int main(void)
 
     return 0;
 }
+
+/* Display the instruction to the user */
+void instruct(void)
+{
+    printf("Program to calculate total surface area\n");
+    printf("of a cone given the base radius and \n");
+    printf("slant height of the cone\n\n");
+}
