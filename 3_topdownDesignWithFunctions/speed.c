@@ -29,5 +29,8 @@ int main(void)
     mps = fps_to_mps(fps);
 
     /* Display the result. */
-    
+    printf("The speed is %.2lf fps\n", fps);
+    printf("or %.2lf mps\n", mps);
+
+    return 0;
 }
