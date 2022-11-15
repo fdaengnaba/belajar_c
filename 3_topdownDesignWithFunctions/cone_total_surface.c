@@ -48,5 +48,5 @@ void instruct(void)
  */
 double find_total_surface_area(double r, double s)
 {
-    return PI * r * (r + l);
+    return PI * r * (r + s);
 }
