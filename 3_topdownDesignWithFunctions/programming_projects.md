@@ -118,3 +118,33 @@ the n!
 ### 4 source code
 
 [n! calculator](n.c)
+
+## 5 student finance calculator
+
+### 5 input
+
+1. monthly_payment
+2. hourly rate work income
+3. monthly install
+
+### 5 outpu
+
+1. How many hours have to work
+
+### 5 process
+
+1. get monthly_payment, hourly_rate, monhtly_install
+2. compute hour neeeded
+3. display the hour needed
+
+#### 5.2 refinement
+
+5.2.1 hour needed = install_income_gap / hourly_rate
+
+#### 5.2.1 refinement
+
+5.2.1.1 install_income_gap = monthly_install - monthly_payment
+
+### 5 source code
+
+[hour needed calculator](hour_needed.c)
