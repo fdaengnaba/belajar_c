@@ -12,6 +12,8 @@ int main(void)
     double annual_fuel_cost;
     double tax_rate;
     double house_cost;
+    double fuel_5yrs;
+    double tax_5yrs;
 
     instruct(); /* Display instruction. */
 
@@ -23,6 +25,15 @@ int main(void)
     printf("Enter tax rate> ");
     scanf("%lf", &tax_rate);
 
+    /* compute hous cost. */
+    /* compute 5 years fuel cost. */
+    fuel_5yrs = find_5yrs_fuel(annual_fuel_cost);
+    /* compute 5 yrs tax. */
+    tax_5yrs = find_5yrs_tax(initial_house_cost, tax_rate);
+    house_cost = initial_house_cost + fuel_5yrs + tax_5yrs;
+    
+    /* Display house cost. */
+    printf("The house cost is %.2lf\n", house_cost);
     
     return 0;
 }
