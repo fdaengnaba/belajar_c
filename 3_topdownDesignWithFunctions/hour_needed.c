@@ -18,6 +18,25 @@ int main(void)
     scanf("%lf", &hourly_rate);
     printf("Enter monthly installment> ");
     scanf("%lf", &monthly_install);
-    
+
+    /* Compute intall_income_gap. */
+    install_gap = find_income_gap(monthly_install, monthly_payment);
+
+    /* Compute hour needed. */
+    work_hours = find_hour_needed(install_gap, hourly_rate);
+
+    /* Display work hours needed. */
+    printf("Work hours needed is %.2lf\n", work_hours);
+
     return 0;
+}
+
+double find_income_gap(double monthly_install, double monthly_payment)
+{
+    return monthly_install - monthly_payment;
+}
+
+double find_hour_needed(double income_gap, double hourly_rate)
+{
+    return income_gap / hourly_rate;
 }
