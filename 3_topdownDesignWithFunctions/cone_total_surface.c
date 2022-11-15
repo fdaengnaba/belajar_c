@@ -21,4 +21,8 @@ int main(void)
     scanf("%lf", &base_radius);
     print("Enter slant height of the cone> ");
     scanf("%lf", &slant_height);
+
+    /* Compute the total surface area. */
+    total_surface_area = find_total_surface_area(base_radius,
+    slant_height);
 }
