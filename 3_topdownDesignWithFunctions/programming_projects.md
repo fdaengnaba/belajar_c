@@ -229,3 +229,13 @@ to calculate the house cost, add the initial cost tho the fuel cost for 5 years,
 ### 7 source code
 
 [house cost calculator](house.c)
+
+## 8
+
+A bullet train slows from a speed of 200 mi/hr to 150 mi/hr in one minute. Write a computer program that calculates the bullet train's constant rate of acceleration and determines how long the bullet train will take to come to rest, given an initial speed of 200 mi/hr.
+
+a = v~f~ - v~i~ / t
+
+where a is acceleration, t is time interval, v~i~ is initial velocity, and v~f~ is final velosity
+
+Write and call a funtion that displays instructions to the program user and a function that computes a, given t, v~f~ and v~i~
