@@ -244,6 +244,7 @@ Write and call a funtion that displays instructions to the program user and a fu
 
 1. initial speed
 2. final speed
+3. time elapsed
 
 ### 8 output
 
