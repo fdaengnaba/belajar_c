@@ -261,3 +261,7 @@ Write and call a funtion that displays instructions to the program user and a fu
 ### 8 source code
 
 [acceleration calc](acceleration.c)
+
+## 9
+
+[flu epidemic prediction](flu.c)
