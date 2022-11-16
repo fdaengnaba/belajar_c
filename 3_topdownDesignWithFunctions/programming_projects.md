@@ -239,3 +239,24 @@ a = v~f~ - v~i~ / t
 where a is acceleration, t is time interval, v~i~ is initial velocity, and v~f~ is final velosity
 
 Write and call a funtion that displays instructions to the program user and a function that computes a, given t, v~f~ and v~i~
+
+### 8 input
+
+1. initial speed
+2. final speed
+
+### 8 output
+
+1. acceleration
+2. time till stop
+
+### 8 process
+
+1. get initial speed, final speed
+2. compute acceleration
+3. compute time till stop
+4. display result
+
+### 8 source code
+
+[acceleration calc](acceleration.c)
