@@ -13,7 +13,7 @@ int main(void)
 
     /* Get initial speed, final speed, time */
     printf("vi vf t> ");
-    scanf("%lf%lf%lf", &vi, &vf, t);
+    scanf("%lf%lf%lf", &vi, &vf, &t);
 
     /* Compute acceleration. */
     acc = find_acceleration(vi, vf, t);
