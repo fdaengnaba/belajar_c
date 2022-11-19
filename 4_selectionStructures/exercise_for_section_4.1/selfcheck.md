@@ -27,3 +27,9 @@
     `y + z >= x - z` = true  
     `(flag || (y + x >= x - x))` = true  
     `!(flag || (y + z >= x - z))` = false
+4. Complement each expression in Exercise 2. Use DeMorgan's theorem if applicable!
+
+    a. `c != a + b && flag`  
+    b. `a == 7 || !flag && c < 6`  
+    c. `b <= 12 && a % 2 != 0`  
+    d. `b > 5 && c >= a + b`
