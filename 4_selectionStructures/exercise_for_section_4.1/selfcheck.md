@@ -19,3 +19,11 @@
     d. `!( a > 5 || c < a + b )` is true
 
 3. Show step-by-step evaluation of expression 4 in Example 4.2
+
+    `!(flag || (y + z >= x - z))`
+
+    `y + z` = 6  
+    `x - z` = 1  
+    `y + z >= x - z` = true  
+    `(flag || (y + x >= x - x))` = true  
+    `!(flag || (y + z >= x - z))` = false
